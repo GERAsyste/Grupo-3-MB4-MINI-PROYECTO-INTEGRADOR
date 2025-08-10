@@ -12,5 +12,11 @@ Objetivo general: Aplicar Scrum, Github, aplicando prácticas de XP: TDD, Pair P
 
 
 
+
+
 Enlace de la página Web:
 https://gerasyste.github.io/Grupo-3-MB4-MINI-PROYECTO-INTEGRADOR/
+
+
+Enlace del Trello:
+https://trello.com/invite/b/689379bf5c2c115003ac4084/ATTI1eb5eaf31fe65030eeda05a2737babfa6907B737/trabajo-colaborativo-scrum-xp-extreme-programing
