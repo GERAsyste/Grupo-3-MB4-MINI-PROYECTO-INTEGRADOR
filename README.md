@@ -8,7 +8,7 @@ Objetivo general: Aplicar Scrum, Github, aplicando prácticas de XP: TDD, Pair P
 | Rodrigo Guerra    | Product Owner                                   |
 | Matias Sicha      | Developer                                       |  
 | Carlos Gago       | Developer                                       |
-
+| Giovanni Honorio  | Developer                                       |
 
 
 
