@@ -1,0 +1,48 @@
+name: CI Calculadora (integration)
+
+on:
+  push:
+    branches: ["integration"]  # Cambiado a tu rama
+  pull_request:
+    branches: ["integration"] # Cambiado a tu rama
+
+jobs:
+  validate:
+    name: Validar HTML/JS
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        ref: 'integration'  # Especifica la rama
+    
+    - name: Verificar archivos
+      run: |
+        if [ ! -f "index.html" ]; then
+          echo "::error::No se encontró index.html"
+          exit 1
+        fi
+        if [ ! -f "script.js" ]; then
+          echo "::error::No se encontró script.js"
+          exit 1
+        fi
+        echo "✅ Todos los archivos existen"
+    
+  deploy:
+    needs: validate
+    if: github.ref == 'refs/heads/integration'  # Ajustado
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: 'integration'  # Especifica la rama
+    
+    - name: Desplegar en GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages
