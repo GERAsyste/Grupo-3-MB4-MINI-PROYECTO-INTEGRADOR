@@ -2,7 +2,7 @@
 Objetivo general: Aplicar Scrum, Github, aplicando prácticas de XP: TDD, Pair Programming y Refactorización real cuando se detecta, desarrollo web colaborativo y Integración Continua (CI) para entregar un producto funcional sencillo, trabajando en equipo, con una planificación ágil y dejando evidencia de lo aprendido.
 
 
-| Integrante        | Roles                                           |
+| Integrantes       | Roles                                           |
 |-------------------|-------------------------------------------------|
 | Gianluca Revilla  | Scrum Master                                    |
 | Rodrigo Guerra    | Product Owner                                   |
