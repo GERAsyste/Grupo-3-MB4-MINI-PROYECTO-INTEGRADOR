@@ -40,7 +40,7 @@ Carpeta compartida al correo: **mdpixelcorp10@gmail.com**
 - **Gianluca Revilla (Scrum Master):**
   - Organizó el equipo  
   - Configuró el repositorio  
-  - Activó GitHub Pages  
+  - Activó GitHub Pages y Pepiline CI
 - **Rodrigo Guerra (Product Owner):**
   - Definió el objetivo del proyecto  
   - Priorizó tareas en el Sprint Backlog (Trello)  
