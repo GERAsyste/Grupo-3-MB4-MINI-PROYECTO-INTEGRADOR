@@ -2,7 +2,7 @@ name: CI Calculadora
 
 on:
   push:
-    branches: ["main"]
+    branches: ["integration"]
   pull_request:
     branches: ["main"]
 
