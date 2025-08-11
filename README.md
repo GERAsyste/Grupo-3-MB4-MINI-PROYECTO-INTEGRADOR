@@ -29,7 +29,7 @@ https://trello.com/invite/b/689379bf5c2c115003ac4084/ATTI1eb5eaf31fe65030eeda05a
 - Contenido:
   - 🎥 Video (máx. 15 minutos)
   - 📄 `integrantes.txt` con los nombres, roles y GitHub de cada uno
-  - 🔗 Link al repositorio: `https://github.com/rodrixd123/proyecto-colaborativo-grupo3` (Ejemplo)
+  - 🔗 Link del Drive: `https://drive.google.com/drive/folders/1aXGgheFYQOUw1zZ58Zm9MZpBNAISRd21?usp=drive_link` 
 
 Carpeta compartida al correo: **mdpixelcorp10@gmail.com**
 
