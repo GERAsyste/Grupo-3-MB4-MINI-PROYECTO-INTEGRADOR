@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculadora Extendida — Factorial y Combinatoria</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Calculadora Extendida</h1>
+    <p class="subtitle">Factorial y Combinatoria (nCk) — validación y manejo de errores</p>
+
+    <div class="cards-wrapper">
+        <section class="card">
+        <h2>Factorial</h2>
+        <label for="fact-n">Ingrese n (entero ≥ 0):</label>
+        <input id="fact-n" type="number" min="0" step="1" placeholder="Ej: 5" />
+        <div class="row">
+            <button id="btn-factorial">Calcular factorial</button>
+            <button id="btn-clear-fact" class="secondary">Limpiar</button>
+        </div>
+        <div id="fact-error" class="error" aria-live="polite"></div>
+        <div id="fact-result" class="result" aria-live="polite"></div>
+        </section>
+
+        <section class="card">
+        <h2>Combinatoria (nCk)</h2>
+        <label for="comb-n">Ingrese n (entero ≥ 0):</label>
+        <input id="comb-n" type="number" min="0" step="1" placeholder="Ej: 10" />
+        <label for="comb-k">Ingrese k (entero ≥ 0):</label>
+        <input id="comb-k" type="number" min="0" step="1" placeholder="Ej: 3" />
+        <div class="row">
+            <button id="btn-comb">Calcular nCk</button>
+            <button id="btn-clear-comb" class="secondary">Limpiar</button>
+        </div>
+        <div id="comb-error" class="error" aria-live="polite"></div>
+        <div id="comb-result" class="result" aria-live="polite"></div>
+        </section>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
