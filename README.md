@@ -15,7 +15,7 @@ Objetivo general: Aplicar Scrum, Github, aplicando prácticas de XP: TDD, Pair P
 ---
 
 ## 🌐 Enlace al sitio web:
-👉 https://rodrixd123.github.io/proyecto-colaborativo-grupo3/
+👉 https://gerasyste.github.io/Grupo-3-MB4-MINI-PROYECTO-INTEGRADOR/
 
 ---
 
